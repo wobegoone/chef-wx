@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/study/category/category",
+    "pages/study/detail/detail",
+    "pages/person/index/index",
+    "pages/shop/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/index/tab-home-off.png",
+        "selectedIconPath": "./images/index/tab-home-on.png"
+      },
+      {
+        "pagePath": "pages/study/category/category",
+        "text": "学习",
+        "iconPath": "./images/index/tab-study-off.png",
+        "selectedIconPath": "./images/index/tab-study-on.png"
+      },
+      {
+        "pagePath": "pages/shop/index/index",
+        "text": "商城",
+        "iconPath": "./images/index/tab-shop-off.png",
+        "selectedIconPath": "./images/index/tab-shop-on.png"
+      },
+      {
+        "pagePath": "pages/person/index/index",
+        "text": "个人",
+        "iconPath": "./images/index/tab-person-off.png",
+        "selectedIconPath": "./images/index/tab-person-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
